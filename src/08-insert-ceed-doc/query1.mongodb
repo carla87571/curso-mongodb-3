@@ -1,0 +1,2 @@
+db.estudiantes.find({nombre:"Sergio"}).pretty()
+db.estudiantes.find({$and:[{nombre:"Sergio"}, {email:{$exists:true}}]}).pretty()

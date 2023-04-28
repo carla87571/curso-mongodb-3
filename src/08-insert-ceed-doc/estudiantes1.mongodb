@@ -1,0 +1,76 @@
+use("pruebas")
+
+db.estudiantes.drop()
+
+db.estudiantes.insertMany([
+    
+        j_est1 = {
+        nombre: "Sergio",
+        apellidos: "Gracia Miranda",
+        email: "sergio@gmail.com",
+        edad:19
+    },
+    
+        j_est2 = {
+        nombre: "Pablo",
+        apellidos: "Concar López",
+        email: "graciamerinda@gmail.com",
+        
+    },
+    
+        j_est3 = {
+        nombre: "Eva",
+        apellidos: "Gredos Martínez",
+        email: "gredoseva@gmail.com",
+        edad:13
+    },
+    
+        j_est4 = {
+        nombre: "Miranda",
+        apellidos: "Aranda Bada",
+        email: "indo@arandabada.com",
+        edad:49
+    },
+    
+        j_est5 = {
+        nombre: "Gabriel",
+        apellidos: "Muro Menéndez",
+        edad:12
+    },
+    
+        j_est6 = {
+        nombre: "Ana",
+        apellidos: "Gracia Miranda",
+        email: "ana@gmail.com",
+        edad:19
+    },
+    
+        j_est7 = {
+        nombre: "Tania",
+        apellidos: "Concar López",
+        email: "tania@gmail.com"
+    },
+    
+        j_est8 = {
+        nombre: "Miguel",
+        apellidos: "Gredos Martínez",
+        email: "miguel@gmail.com",
+        edad:39
+    },
+    
+        j_est9 = {
+        nombre: "Álvaro",
+        apellidos: "aranda Bada",
+        email: "diana@genial.com",
+        edad:49
+    },
+    
+        j_est10 = {
+        nombre: "Diana",
+        apellidos: "Muro Menéndez",
+        edad:29
+    },
+    
+])
+
+db.estudiantes.insertMany([j_est1, j_est2, j_est3, j_est4, j_est5, j_est6, j_est7, j_est8, j_est9, j_est10])
